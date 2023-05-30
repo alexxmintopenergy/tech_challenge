@@ -1,0 +1,31 @@
+.tcp-get-news-button{
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+#our_clients {
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients_card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 0 15px;
+    background: #fff;
+    margin: 15px;
+}
+.tcp-get-news-button:hover{
+    opacity:0.85;
+    cursor: pointer;
+    background: #fafafa;
+}
+@media(max-width:1200px) {
+    .clients_card {
+        flex-basis: 40%;
+    }
+}
+@media(max-width:576px) {
+    .clients_card {
+        flex-basis: 100%;
+    }
+}
